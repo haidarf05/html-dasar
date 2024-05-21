@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Filed Selected Tag</title>
+  </head>
+  <body>
+    <h1>Belajar Selected Tag</h1>
+    <form action="">
+      <label for="hobby">Hobi :</label>
+
+      <select name="hobby" id="hobby" multiple size="2">
+        <option value="" selected disabled>Pilih Hobi</option>
+        <option value="Coding">Coding</option>
+        <option value="Gaming">Gaming</option>
+        <option value="Catur">Catur</option>
+      </select>
+      <br />
+      <label for="option">Option Group</label>
+      <select name="hobbies" id="hobbies">
+        <option value="" selected disabled>Pilih Hobi</option>
+
+        <optgroup label="Coding">
+          <option value="java">Java</option>
+          <option value="javascript">JavaScript</option>
+          <option value="php">php</option>
+        </optgroup>
+        <optgroup label="Gaming">
+          <option value="pokemon">Pokemon</option>
+          <option value="aov">AOV</option>
+          <option value="PUBG">PUBG</option>
+        </optgroup>
+        <optgroup label="Sport">
+          <option value="soccer">Soccer</option>
+          <option value="badminton">Badminton</option>
+          <option value="football">Football</option>
+        </optgroup>
+      </select>
+      <br />
+      <button type="submit">Simpan</button>
+    </form>
+  </body>
+</html>
